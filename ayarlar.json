@@ -1,0 +1,20 @@
+{
+  "prefix": "Ön Ekiniz",
+  "guildId":"Botu kullanacağınız Ana Sunucunun ID'si",
+  "sesKanalı":"Botunuzun gireceği Ses Kanalı ID",
+  "sahip": "Bot Sahibinin ID'si",
+  "token": "Bot Tokeniniz",
+  "cooldown":"0",
+  "connection":"on",
+  "prefixCommands":"on",
+  "slashCommands":"on",
+
+  "durum":[
+            "Durum Yazısı 1",
+            "Durum Yazısı 2",
+            "Durum yazısı 3"
+  ],
+  "no":"Çarpı Emoji ID'si (<a:no:12345678901234> şeklinde girin!)",
+  "yes":"Tik Emoji ID'si (<a:yes:12345678901234> şeklinde girin!)"
+
+} 
