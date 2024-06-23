@@ -1,7 +1,7 @@
 const { VoiceConnectionStatus , joinVoiceChannel } = require('@discordjs/voice');
 const ayarlar = require("../ayarlar.json") 
 module.exports = (client) => {
-    if(ayarlar.connetion.toLowerCase() !== "on") return;
+    if(ayarlar.connection.toLowerCase() !== "on") return;
     const channel = client.channels.cache.get(ayarlar.sesKanalı)
     const connection = joinVoiceChannel({
       channelId: ayarlar.sesKanalı,
